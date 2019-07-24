@@ -1,1 +1,17 @@
-[]
+github:
+  user_or_org: buijennifer
+channels:
+  sources:
+    - lightsource2-tag
+    - defaults
+  targets:
+    - [jenniferbui, main]
+azure:
+  user_or_org: buijennifer 
+  project_name: nsls2
+min_py_ver: "36"
+provider:
+  linux: azure
+  osx: azure
+  win: azure
+upload_on_branch: master
